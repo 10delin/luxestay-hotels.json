@@ -1,178 +1,85 @@
 {
-"dates": {
-"checkin":"2022-05-22",
-"checkout":"2022-05-28",
-},
- "rooms": [
+  "dates": {
+    "checkin": "2022-05-22",
+    "checkout": "2022-05-28"
+  },
+  "rooms": [
     {
       "name": "Doble Vista Piscina",
+      "description": "Amplia habitación con vista a la piscina.",
+      "max_occupancy": 2,
+      "beds": "2 camas dobles",
+      "amenities": ["Aire acondicionado", "TV pantalla plana", "Minibar"],
       "boards": [
         {
-          "price": 352,
-          "name": "solo alojamiento"
+          "name": "solo alojamiento",
+          "description": "Tarifa básica de solo alojamiento.",
+          "price": 352
         },
         {
-          "price": 563,
-          "name": "habitación y desayuno"
-        },
-        {
-          "price": 655,
-          "name": "todo incluído"
+          "name": "habitación y desayuno",
+          "description": "Incluye desayuno diario.",
+          "price": 563
         }
       ]
     },
     {
       "name": "Doble Vista Mar",
+      "description": "Elegante habitación con vista al mar.",
+      "max_occupancy": 2,
+      "beds": "1 cama king",
+      "amenities": ["Balcón privado", "Baño de mármol", "Servicio a la habitación"],
       "boards": [
         {
-          "price": 366,
-          "name": "solo alojamiento"
+          "name": "solo alojamiento",
+          "description": "Tarifa básica de solo alojamiento.",
+          "price": 366
         },
         {
-          "price": 580,
-          "name": "habitación y desayuno"
-        },
-        {
-          "price": 675,
-          "name": "todo incluído"
+          "name": "habitación y desayuno",
+          "description": "Incluye desayuno diario.",
+          "price": 580
         }
       ]
     },
     {
-      "name": "Habitación Estándar",
+      "name": "Suite Ejecutiva",
+      "description": "Espaciosa suite con área de estar y comedor.",
+      "max_occupancy": 4,
+      "beds": "1 cama king y 1 sofá cama",
+      "amenities": ["Vista panorámica", "Bañera de hidromasaje", "Cocina equipada"],
       "boards": [
         {
-          "price": 300,
-          "name": "solo alojamiento"
+          "name": "solo alojamiento",
+          "description": "Tarifa básica de solo alojamiento.",
+          "price": 650
         },
         {
-          "price": 450,
-          "name": "habitación y desayuno"
-        },
-        {
-          "price": 550,
-          "name": "todo incluído"
-        }
-      ]
-    },
-    {
-      "name": "Suite Vista Jardín",
-      "boards": [
-        {
-          "price": 450,
-          "name": "solo alojamiento"
-        },
-        {
-          "price": 650,
-          "name": "habitación y desayuno"
-        },
-        {
-          "price": 800,
-          "name": "todo incluído"
+          "name": "media pensión",
+          "description": "Desayuno y cena incluidos.",
+          "price": 850
         }
       ]
     },
     {
       "name": "Habitación Familiar",
+      "description": "Perfecta para familias, con dos habitaciones conectadas.",
+      "max_occupancy": 4,
+      "beds": "2 camas dobles",
+      "amenities": ["Zona de juegos para niños", "Desayuno gratuito para niños"],
       "boards": [
         {
-          "price": 500,
-          "name": "solo alojamiento"
+          "name": "habitación y desayuno",
+          "description": "Incluye desayuno diario.",
+          "price": 720
         },
         {
-          "price": 700,
-          "name": "habitación y desayuno"
-        },
-        {
-          "price": 950,
-          "name": "todo incluído"
-        }
-      ]
-    },
-    {
-      "name": "Suite Lujo",
-      "boards": [
-        {
-          "price": 800,
-          "name": "solo alojamiento"
-        },
-        {
-          "price": 1000,
-          "name": "habitación y desayuno"
-        },
-        {
-          "price": 1200,
-          "name": "todo incluído"
-        }
-      ]
-    },
-    {
-      "name": "Habitación Individual",
-      "boards": [
-        {
-          "price": 200,
-          "name": "solo alojamiento"
-        },
-        {
-          "price": 300,
-          "name": "habitación y desayuno"
-        },
-        {
-          "price": 400,
-          "name": "todo incluído"
-        }
-      ]
-    },
-    {
-      "name": "Suite Presidencial",
-      "boards": [
-        {
-          "price": 1500,
-          "name": "solo alojamiento"
-        },
-        {
-          "price": 1700,
-          "name": "habitación y desayuno"
-        },
-        {
-          "price": 2000,
-          "name": "todo incluído"
-        }
-      ]
-    },
-    {
-      "name": "Habitación Ejecutiva",
-      "boards": [
-        {
-          "price": 600,
-          "name": "solo alojamiento"
-        },
-        {
-          "price": 800,
-          "name": "habitación y desayuno"
-        },
-        {
-          "price": 1000,
-          "name": "todo incluído"
-        }
-      ]
-    },
-    {
-      "name": "Habitación Deluxe",
-      "boards": [
-        {
-          "price": 700,
-          "name": "solo alojamiento"
-        },
-        {
-          "price": 900,
-          "name": "habitación y desayuno"
-        },
-        {
-          "price": 1100,
-          "name": "todo incluído"
+          "name": "todo incluido",
+          "description": "Todas las comidas y bebidas incluidas.",
+          "price": 1100
         }
       ]
     }
+    // Puedes agregar más habitaciones aquí...
   ]
 }
