@@ -5,6 +5,7 @@
   },
   "rooms": [
     {
+      "id":1,
       "name": "Doble Vista Piscina",
       "boards": [
         {
@@ -23,6 +24,7 @@
       ]
     },
     {
+      "id":2,
       "name": "Doble Vista Mar",
       "boards": [
         {
