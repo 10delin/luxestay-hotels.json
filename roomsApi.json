@@ -5,38 +5,106 @@
   },
   "rooms": [
     {
-      "id":1,
+      "id": 1,
       "name": "Doble Vista Piscina",
       "boards": [
         {
+          "id": 11,
           "price": 352,
           "name": "solo alojamiento"
         },
         {
+          "id": 12,
           "price": 563,
           "name": "habitación y desayuno"
         },
         {
+          "id": 13,
           "price": 655,
-
           "name": "todo incluído"
         }
       ]
     },
     {
-      "id":2,
+      "id": 2,
       "name": "Doble Vista Mar",
       "boards": [
         {
+          "id": 21,
           "price": 366,
           "name": "solo alojamiento"
         },
         {
+          "id": 22,
           "price": 580,
           "name": "habitación y desayuno"
         },
         {
+          "id": 23,
           "price": 675,
+          "name": "todo incluído"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Suite Junior",
+      "boards": [
+        {
+          "id": 31,
+          "price": 450,
+          "name": "solo alojamiento"
+        },
+        {
+          "id": 32,
+          "price": 680,
+          "name": "habitación y desayuno"
+        },
+        {
+          "id": 33,
+          "price": 780,
+          "name": "todo incluído"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Suite Presidencial",
+      "boards": [
+        {
+          "id": 41,
+          "price": 800,
+          "name": "solo alojamiento"
+        },
+        {
+          "id": 42,
+          "price": 1100,
+          "name": "habitación y desayuno"
+        },
+        {
+          "id": 43,
+          "price": 1300,
+          "name": "todo incluído"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Habitación Económica",
+      "boards": [
+        {
+          "id": 51,
+          "price": 250,
+          "name": "solo alojamiento"
+        },
+        {
+          "id": 52,
+          "price": 350,
+          "name": "habitación y desayuno"
+        },
+        {
+          "id": 53,
+          "price": 450,
           "name": "todo incluído"
         }
       ]
